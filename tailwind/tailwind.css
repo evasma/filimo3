@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .menu {
+     @apply  font-[IranSans] text-[12px] text-[#ffffff] ;
+    }
+   .menu_div{
+    @apply flex flex-row items-center h-[50px] ml-0 px-[5px] ;
+   }
+  .slide_img{
+    @apply w-[100%] h-[100%] object-cover ;
+  }
+  .slide_span{
+    @apply text-[13px] font-['iransans'] font-[100] text-white ;
+  }
+  .slide_div{
+    @apply flex flex-row-reverse items-center gap-x-[5px] ;
+  }
+  .slide_tik{
+    @apply w-[20px] h-[20px] bg-[#153926] rounded-[50%] 
+  }
+  .fav_img{
+    @apply rounded-[10px] opacity-[0.8]
+  }
+  .fav_hover{
+    @apply opacity-100 cursor-pointer
+  }
+  .fav_active{
+    @apply border-[1px] border-white border-solid scale-[1.1] cursor-pointer
+  }
+  .look_span{
+    @apply text-[14px] text-[#d8d8d8] font-['iransans'] font-[700]
+  }
+  .look_span2{
+    @apply text-[11px] text-[#a1a1a1] font-['iransans'] font-[400] 
+  }
+   
+}
+
+@font-face {
+  font-family:iransans ;
+  src: url("../font/IRANSans.eot");
+  src: url("../font/IRANSans.ttf");
+  src: url("../font/IRANSans.woff");
+  src: url("../font/IRANSans.woff2");
+}
+@layer base{
+  *{
+    font-family: iransans;
+  }
+}

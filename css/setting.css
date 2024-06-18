@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0 ;
+  padding: 0;
+  font-family: iranSans ;
+}
+@font-face {
+  font-family: IranSans;
+  src: url(../font/IRANSans.ttf);
+  src: url(../font/IRANSans.eot);
+  src: url(../font/IRANSans.woff);
+  src: url(../font/IRANSans.woff2);
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.shadow{
+  filter:brightness(30%) !important;
+}
+/*  it can be able in one way it means you can choose one degree not more... */
+.back{
+  background:linear-gradient(180deg, #151515 15%, rgba(21, 21, 21, 0) 100% ), url("../image/favback.webp") !important ;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+ }
+
+
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: 30px;
+  background-color: #151515;
+
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: 30px;
+background-color: #151515;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 13px;
+  color:whitesmoke; 
+}
+.various{
+  background: -webkit-linear-gradient(245deg, #05c3ff 0, #151515 40%);
+}
+.online{
+  background-image: url('../image/bg-cinama.webp');
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.lock{
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+}
